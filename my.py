@@ -14,8 +14,8 @@ for Day in Days:
 Times = ["Morning", "Afternoon" ,"Evening"]
 A = []
 for Day in Days:
-     print(random.choices(Mood))
-for Time in Times:
+     print("Awsome!")
+    for Time in Times:
       A = [Days[0],Time,random.choices(Mood), Days[1],Time,random.choices(Mood), Days[2],Time,random.choices(Mood), Days[3],Time,random.choices(Mood), Days[4],Time,random.choices(Mood),Days[5],Time,random.choices(Mood),Days[6],Time,random.choices(Mood)] 
       print(A)  
 # Ensure that all code in your file is ready to run. This means that if someone opens your file and clicks the run button at the top, 
