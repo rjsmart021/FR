@@ -12,10 +12,12 @@ for Day in Days:
 #for each day of the week. Use nested loops to implement this: the outer loop should iterate over the days, and the inner loop should iterate 
 #over the times of the day. For each time, randomly select a mood from a predefined list and print it. Use the random module again to randomly select the mood.
 Times = ["Morning", "Afternoon" ,"Evening"]
-for Day in Days: 
-        Schedule = [Day, Time]
-        print(Schedule)
-        for Times in Schedule:
-              print(random.choices(Mood))
-# Ensure that all code in your file is ready to run. This means that if someone opens your file and clicks the run button at the top, all code executes as intended. For example, if there are if statements, print statements, or for loops, they should function correctly and display output in the console as expected.
+A = []
+for Day in Days:
+     print(random.choices(Mood))
+for Time in Times:
+      A = [Days[0],Time,random.choices(Mood), Days[1],Time,random.choices(Mood), Days[2],Time,random.choices(Mood), Days[3],Time,random.choices(Mood), Days[4],Time,random.choices(Mood),Days[5],Time,random.choices(Mood),Days[6],Time,random.choices(Mood)] 
+      print(A)  
+# Ensure that all code in your file is ready to run. This means that if someone opens your file and clicks the run button at the top, 
+# all code executes as intended. For example, if there are if statements, print statements, or for loops, they should function correctly and display output in the console as expected.
 
